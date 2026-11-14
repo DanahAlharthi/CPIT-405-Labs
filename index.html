@@ -1,12 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Danah Alharthi - Senior Information Technology student passionate about web development, design, and innovation.">
+  <title>Danah Alharthi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Welcome</h1>
-    <a href="Labs/labs.html">Labs</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html">Danah<span>.</span></a>
+
+      <div class="nav-links">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="#about">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero container">
+      <div class="hero-copy">
+        <span class="eyebrow">✳ HELLO, I'M</span>
+
+        <div class="selection-frame">
+          <span class="handle top-left" aria-hidden="true"></span>
+          <span class="handle top-right" aria-hidden="true"></span>
+
+          <h1>Danah<br>Alharthi</h1>
+
+          <span class="handle bottom-left" aria-hidden="true"></span>
+          <span class="handle bottom-right" aria-hidden="true"></span>
+        </div>
+
+        <h2 class="hero-tagline">
+          Where <em>creativity</em> meets technology.
+        </h2>
+
+        <p class="hero-description">
+          I'm a senior Information Technology student at
+          King Abdulaziz University, passionate about web
+          development and creating meaningful digital
+          experiences through design, innovation, and technology.
+        </p>
+
+        <div class="hero-actions">
+          <a href="projects.html" class="button primary">
+            Explore My Work ↗
+          </a>
+          <a href="contact.html" class="button secondary">
+            Get in Touch
+          </a>
+        </div>
+      </div>
+
+      <div class="portrait-area">
+        <div class="portrait-backdrop" aria-hidden="true"></div>
+
+        <span class="portrait-star star-one" aria-hidden="true">✳</span>
+        <span class="portrait-star star-two" aria-hidden="true">✦</span>
+
+        <img
+          src="images/me.png"
+          alt="Illustrated avatar of Danah"
+          class="portrait"
+        >
+      </div>
+    </section>
+
+    <!-- About and CV -->
+    <section class="about-section" id="about">
+      <div class="container">
+
+        <div class="section-intro">
+          <h2>A little about me<span class="purple-dot">.</span></h2>
+        </div>
+
+        <p class="about-lead">
+          I love the space where
+          <strong>ideas, design, and code</strong>
+          come together. I enjoy turning complex problems
+          into simple, meaningful experiences and learning
+          something new along the way.
+        </p>
+
+        <div class="info-grid">
+
+          <!-- Education -->
+          <article class="info-card">
+            <div class="card-icon" aria-hidden="true">✧</div>
+            <h3>Education</h3>
+
+            <p class="card-emphasis">
+              BSc in Information Technology
+            </p>
+
+            <p>
+              King Abdulaziz University<br>
+              Faculty of Computing &amp; Information Technology
+            </p>
+
+            <p class="student-id">Student ID: 2308060</p>
+          </article>
+
+          <!-- Technical Skills -->
+          <article class="info-card">
+            <div class="card-icon" aria-hidden="true">⌘</div>
+            <h3>Technical Skills</h3>
+
+            <div class="skill-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Java</span>
+              <span>Python</span>
+              <span>SQL</span>
+              <span>UI/UX Design</span>
+              <span>Figma</span>
+            </div>
+          </article>
+
+          <!-- Experience -->
+          <article class="info-card">
+            <div class="card-icon" aria-hidden="true">↗</div>
+            <h3>Experience</h3>
+
+            <p class="card-emphasis">
+              Application Developer Trainee
+            </p>
+            <p>Saudi Services Corporation Limited (SSCL)</p>
+
+            <p class="card-emphasis spaced">
+              Data &amp; Technical Coordinator
+            </p>
+            <p>Made by my Hand Exhibition · 250 Hours</p>
+          </article>
+
+        </div>
+
+        <!-- Achievements -->
+        <section class="achievements-section" aria-labelledby="achievements-title">
+          <div class="achievements-header">
+            <h2 id="achievements-title">
+              Selected Achievements<span class="purple-dot">.</span>
+            </h2>
+          </div>
+
+          <div class="achievements-showcase">
+
+            <!-- Jusoor -->
+            <article class="achievement-card">
+              <div class="achievement-image">
+                <img
+                  src="images/jusoor.jpg"
+                  alt="Jusoor Projects Competition award ceremony"
+                  class="jusoor-image"
+                  loading="lazy"
+                >
+              </div>
+
+              <div class="achievement-content">
+                <span class="achievement-year">2026</span>
+                <h3>1st Place — Jusoor</h3>
+                <p>Projects Competition · Figma Track</p>
+              </div>
+            </article>
+
+            <!-- EEG -->
+            <article class="achievement-card">
+              <div class="achievement-image">
+                <img
+                  src="images/eeg.jpg"
+                  alt="EEG public speaking competition in Dubai"
+                  class="eeg-image"
+                  loading="lazy"
+                >
+              </div>
+
+              <div class="achievement-content">
+                <span class="achievement-year">2025</span>
+                <h3>2nd Runner-up — EEG</h3>
+                <p>Environmental Public Speaking · Dubai</p>
+              </div>
+            </article>
+
+            <!-- Eduthon -->
+            <article class="achievement-card">
+              <div class="achievement-image">
+                <img
+                  src="images/eduthon.jpg"
+                  alt="Eduthon competition achievement"
+                  class="eduthon-image"
+                  loading="lazy"
+                >
+              </div>
+
+              <div class="achievement-content">
+                <span class="achievement-year">2024</span>
+                <h3>7th Place — Eduthon</h3>
+                <p>Innovation &amp; Education Hackathon · Abha</p>
+              </div>
+            </article>
+
+          </div>
+        </section>
+
+      </div>
+    </section>
+
+    <!-- Coursework Preview -->
+    <section class="work-teaser container">
+      <div>
+        <h2>
+          Explore what<br>
+          I've created<span class="purple-dot">.</span>
+        </h2>
+        <p>Explore my completed labs and projects for CPIT 405.</p>
+      </div>
+
+      <a href="projects.html" class="button primary">
+        View Coursework ↗
+      </a>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 Danah Alharthi</span>
+      <a href="contact.html">Say Hello ↗</a>
+    </div>
+  </footer>
+
 </body>
 </html>
